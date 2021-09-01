@@ -71,7 +71,7 @@
 tablas en la base de datos de objetos, donde las columnas de la tabla corresponden a las propiedades de estos
 objetos. La técnica, utilizada en la programación para convertir los tipos de datos con los que trabajan en un
 lenguaje orientado a objetos, los tipos de datos con los que trabajan en un sistema de base de datos relacional
-para la persistencia de datos en el objeto de mapeo-relacional
+para la persistencia de datos en el objeto de mapeo-relacional. En el desarrollo de  una  aplicación  usando  el  paradigma  orientado  a  objetos,  los programadores  se enfrentan, entre otros desafíos, al problema de la persistencia de los datos, debido a las diferencias que existen  entre  el  modelo  relacional  y  el  modelo  orientado  a  objetos.Este  problema  la  mayoría  de  los casos  es  solucionado  con  la  ayuda  de  ciertas  herramientas  que  se  encargan  de  generar  de  manera automática el acceso a datos, abstrayendo al programador de este problema.
 
 
 
@@ -84,7 +84,7 @@ The assignment of relational objects is a technique that would assign each of th
 tables in the object database, where the columns of the table correspond to the properties of these
 Objects. The technique, used in programming to convert the data types they work with into a
 object-oriented language, the data types that you work with in a relational database system
-for data persistence in the relational-mapping object
+for data persistence in the relational-mapping object. In developing an application using the object-oriented paradigm, programmers face, among other challenges, the problem of data persistence, due to the differences that exist between the relational model and the object-oriented model. Most of the cases are solved with the help of certain tools that are in charge of automatically generating access to data, abstracting the programmer from this problem.
 
 
 
@@ -106,7 +106,7 @@ de texto) por lo que no se puede guardar de El problema que surge, porque hoy en
 día prácticamente todas las aplicaciones están diseñadas para usar la Programación
 Orientación a Objetos (POO), mientras que las bases de datos más extendidas son del
 tipo relacional y estas solo permiten guardar tipos de datos primitivos (enteros, cadenas de texto) por lo que no se puede guardar de 
-
+ \includegraphics[width=7cm, height=7cm]{imagenes/ORM.png}
 
 \section{Desarrollo}
 
@@ -181,6 +181,7 @@ Las herramientas ORM ofrecen ventajas para el programador como son:
  diferentes.
 Asi los tres modos de trabajo descritos a continuacion estan completamente soportados en EF6, pero EF Core solamente soporta "Code First" en .NET
 Core ni esta ni se le espera.
+ \includegraphics[width=7cm, height=7cm]{imagenes/hibernate.jpg}
 \section{Conclusiones}
 El uso de un ORM es una alternativa sumamente efectiva a la hora de trasladar el modelo conceptual(orientado a objetos)
 al esquema relacional nativo de la bas bases de datos SQL. Evita la inclusion de sentencias SQL embebidas en el codigo de la aplicacion, lo que a su vez facilita la migracion
